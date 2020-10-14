@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.09235059.chunk.css",
-    "main.js": "/static/js/main.acc3e17f.chunk.js",
-    "main.js.map": "/static/js/main.acc3e17f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b6f27dc2.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b6f27dc2.js.map",
-    "static/js/2.6b804d43.chunk.js": "/static/js/2.6b804d43.chunk.js",
-    "static/js/2.6b804d43.chunk.js.map": "/static/js/2.6b804d43.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.714fb60ac9c054b15287bc75a40c6a67.js": "/precache-manifest.714fb60ac9c054b15287bc75a40c6a67.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.09235059.chunk.css.map": "/static/css/main.09235059.chunk.css.map",
-    "static/js/2.6b804d43.chunk.js.LICENSE.txt": "/static/js/2.6b804d43.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/neural.a8917482.jpeg"
+    "main.css": "/jayant-react-website-process/static/css/main.0cc36e47.chunk.css",
+    "main.js": "/jayant-react-website-process/static/js/main.10824d9c.chunk.js",
+    "main.js.map": "/jayant-react-website-process/static/js/main.10824d9c.chunk.js.map",
+    "runtime-main.js": "/jayant-react-website-process/static/js/runtime-main.5dadcaae.js",
+    "runtime-main.js.map": "/jayant-react-website-process/static/js/runtime-main.5dadcaae.js.map",
+    "static/js/2.df362236.chunk.js": "/jayant-react-website-process/static/js/2.df362236.chunk.js",
+    "static/js/2.df362236.chunk.js.map": "/jayant-react-website-process/static/js/2.df362236.chunk.js.map",
+    "index.html": "/jayant-react-website-process/index.html",
+    "precache-manifest.c67dcbd43b77e602b844f387b63feca5.js": "/jayant-react-website-process/precache-manifest.c67dcbd43b77e602b844f387b63feca5.js",
+    "service-worker.js": "/jayant-react-website-process/service-worker.js",
+    "static/css/main.0cc36e47.chunk.css.map": "/jayant-react-website-process/static/css/main.0cc36e47.chunk.css.map",
+    "static/js/2.df362236.chunk.js.LICENSE.txt": "/jayant-react-website-process/static/js/2.df362236.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/jayant-react-website-process/static/media/neural.a8917482.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b6f27dc2.js",
-    "static/js/2.6b804d43.chunk.js",
-    "static/css/main.09235059.chunk.css",
-    "static/js/main.acc3e17f.chunk.js"
+    "static/js/runtime-main.5dadcaae.js",
+    "static/js/2.df362236.chunk.js",
+    "static/css/main.0cc36e47.chunk.css",
+    "static/js/main.10824d9c.chunk.js"
   ]
 }
