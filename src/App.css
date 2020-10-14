@@ -1,0 +1,155 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  background-color: white;
+}
+
+h3, h4 {
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+h1 {
+  margin-bottom: 2%;
+}
+
+#intro {
+  padding-top: 6vh;
+  color: black;
+  text-align: center;
+  background-image: linear-gradient(rgba(255,255,255,90%), rgba(255,255,255,0)),url("./neural.jpeg");
+}
+
+#contact {
+  background-color: rgb(41, 124, 160);
+  text-align: center;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+#profileIMG {
+  width:28%;
+  height:28%;
+  border-radius: 100%;
+}
+
+#name {
+  font-family: 'Verdana', sans-serif;
+  font-size: 80px;
+  text-align: center;
+  color: black;
+  text-shadow: 2px 2px #efefef;
+}
+
+#bio {
+  font-family: 'Verdana', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  text-shadow: 2px 2px #efefef;
+}
+
+.iconCSS {
+  padding-right: 1ch;
+  padding-left: 1ch;
+}
+.iconCSS:hover {
+  opacity: 50%;
+}
+
+.mediaSpacingIntro {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  background-color: rgb(29, 139, 190);
+}
+
+#page-body {
+  width: 70%;
+  text-align: justify;
+  margin: 0 auto;
+  padding-top: 8vh;
+}
+
+@media (max-width: 1000px) {
+  #page-body {
+    width:80%;
+  }
+  #profileIMG {
+    width:70%;
+    height:70%;
+    border-radius: 100%;
+  
+  }
+
+}
+
+.cardIMG {
+  width: 100%;
+  height:25vh;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+.card {
+  width: 24%;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 50px;
+  transition: 0.3s;
+  background-color: rgb(236, 236, 236);
+}
+
+.card-body {
+  text-align: center;
+  font-size: 18px;
+  padding: 0 2%;
+}
+
+.card-body .btn {
+  width: 50%;
+  margin-left: 3ch;
+  display: block;
+  color: #fff;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  text-decoration: none;
+  padding: 10px 5px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+
+  .card {
+    width: 100%;
+  }
+}
+
+.card h4 {
+    margin-top: 1vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+.card h5 {
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: black;
+  font-weight: 500;
+}
