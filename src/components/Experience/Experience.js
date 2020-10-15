@@ -18,7 +18,6 @@ const Experience = ({ experienceProfiles }) => (
             <p>
               {profile.timeline}
             </p>
-            <a href="#" class="btn">Read more</a>
           </div>
         </div>
         ))}
