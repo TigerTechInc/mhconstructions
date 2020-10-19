@@ -3,7 +3,7 @@ const ProjectsContent = [
         name: 'Facebook AI Hackathon',
         description: 'Google Cloud Vision image recognition to post ads to matching Facebook groups',
         skills: 'Python, PyTorch, Google Vision, React.js, Flask, JSON, AJAX',
-        imageName: 'angular.png'
+        imageName: 'hackathonFacebook.png'
     },
     {
         name: 'Air Quality Analyzer',
