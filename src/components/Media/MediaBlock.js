@@ -14,14 +14,14 @@ const MediaBlock = ({ mediaProfiles }) => {
         {otherProfiles.map((profile, key) => (
             <a href={profile.myURL} target="_blank">
                 <span class="iconCSS" >
-                    <FontAwesomeIcon icon={profile.iconClass} size="3x" color="black" />
+                    <FontAwesomeIcon id="iconLink" icon={profile.iconClass} size="3x" color="black" />
                 </span>
             </a>
         ))}
         {brandProfiles.map((profile, key) => (
             <a href={profile.myURL} target="_blank">
                 <span class="iconCSS" >
-                    <FontAwesomeIcon icon={profile.iconClass} size="3x" color="black" />
+                    <FontAwesomeIcon id="iconLink" icon={profile.iconClass} size="3x" color="black" />
                 </span>
             </a>
         ))}

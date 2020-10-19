@@ -53,8 +53,9 @@ h1 {
   padding-right: 1ch;
   padding-left: 1ch;
 }
-.iconCSS:hover {
-  opacity: 50%;
+#iconLink:hover {
+  transform: scale(1.2);
+  color: white;
 }
 
 .mediaSpacingIntro {

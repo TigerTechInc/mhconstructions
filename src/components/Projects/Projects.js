@@ -18,7 +18,7 @@ const Projects = ({ projectProfiles }) => (
             <p>
               {profile.skills}
             </p>
-            <a href="#" class="btn">Read more</a>
+            {/* <a href={profile.URL} class="btn">Read more</a> */}
           </div>
         </div>
         ))}
