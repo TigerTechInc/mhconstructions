@@ -87,7 +87,7 @@ const RightNav = ({ open }) => {
         </Link>
     </li>
     <li>
-        <a href={process.env.PUBLIC_URL + '/static/JayantMehtaResume.pdf'}  target="_blank">Resume</a>
+        <a href={process.env.PUBLIC_URL + '/JayantMehtaResume.pdf'}  target="_blank">Resume</a>
     </li>
     </Ul>
   )
