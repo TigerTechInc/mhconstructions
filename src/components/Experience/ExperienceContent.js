@@ -2,7 +2,7 @@ const ExperienceContent = [
     {
         company: 'Oracle',
         title: 'Software Developer and SDET Intern',
-        timeline: 'Sep 2020 - Present',
+        timeline: 'Sep - Dec 2020',
         imageName: 'oracle.png'
     },
     {
