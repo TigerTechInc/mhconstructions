@@ -1,5 +1,11 @@
 const ExperienceContent = [
     {
+        company: 'BlackBerry',
+        title: 'Software Developer',
+        timeline: 'May 2021 - Present',
+        imageName: 'blackberry.jpg'
+    },
+    {
         company: 'Oracle',
         title: 'Software Developer and SDET Intern',
         timeline: 'Sep - Dec 2020',
@@ -12,14 +18,8 @@ const ExperienceContent = [
         imageName: 'gov_canada.png'
     },
     {
-        company: 'Design Net Specific',
-        title: 'Web Developer',
-        timeline: 'Jul - Aug 2019',
-        imageName: 'design.jpg'
-    },
-    {
         company: 'Microsoft',
-        title: 'Student Learn Ambassador Program',
+        title: 'Student Ambassador',
         timeline: 'Apr 2020 - Present',
         imageName: 'microsoft.jpeg'
     },

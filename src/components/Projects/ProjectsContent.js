@@ -1,13 +1,25 @@
 const ProjectsContent = [
     {
-        name: 'Facebook AI Hackathon',
-        description: 'Google Cloud Vision image recognition to post ads to matching Facebook groups',
+        name: 'SanitizeMe (Winner)',
+        description: 'RU Hacks Winner: Object touch detection tracker to alert users when cleaning is required',
+        skills: 'JavaScript, Tensorflow.js, Node.js, Express.js, GCP',
+        imageName: 'sanitizeme.jpg'
+    },
+    {
+        name: 'Facebook Ads Predictor',
+        description: 'Facebook AI Hackathon: Google Cloud Vision image classifier to post ads to matching Facebook groups',
         skills: 'Python, PyTorch, Google Vision, React.js, Flask, Docker',
         imageName: 'fbhack.jpeg'
     },
     {
+        name: 'Biometrics Bicycle Lock',
+        description: 'DECA Innovation Provincial Winner: Embedded secuirty system to track and lock bicyles',
+        skills: 'C++, Swift, Arduino, Fingerprint Sensor',
+        imageName: 'deca.png'
+    },
+    {
         name: 'Air Quality Analyzer',
-        description: 'Compare and compute air qualities for thousands of cities around the world.',
+        description: 'Compare and compute air qualities for thousands of cities around the world',
         skills: 'JavaScript, Vue.js, HTML, CSS, APIs',
         imageName: 'air.jpg'
     },
@@ -16,12 +28,6 @@ const ProjectsContent = [
         description: 'GUI multi-level game with basic AI for security drones pointing lasers at the player',
         skills: 'Java, Object Oriented Programming',
         imageName: 'angular.png'
-    },
-    {
-        name: 'Biometrics Bicycle Lock',
-        description: 'Embedded secuirty system to win  as a Provincial Finalist in Innovation by DECA Ontario',
-        skills: 'C++, Arduino, Fingerprint Sensor',
-        imageName: 'deca.png'
     },
     {
         name: 'SchoolSync @ ShellHacks',
