@@ -6,8 +6,8 @@ const About = () => (
     <h1>About</h1>
         <p>
                 Hi, my name is Jayant!
-                I am a third year Systems Design Engineering student
-                at the University of Waterloo and am currently seeking Fall 2022 internships
+                I am a fourth year Systems Design Engineering student
+                at the University of Waterloo graduating in April 2024. I am currently seeking Summer 2023 internships
                 in software development and product management roles.  
         </p>
         <p>

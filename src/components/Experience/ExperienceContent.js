@@ -1,5 +1,17 @@
 const ExperienceContent = [
     {
+        company: 'Tesla',
+        title: 'Software Applications Engineer',
+        timeline: 'Sep 2022 - Jan 2023',
+        imageName: 'tesla.svg'
+    },
+    {
+        company: 'AMD',
+        title: 'DevOps Software Engineer',
+        timeline: 'Aug - Sep 2022',
+        imageName: 'amd.jpeg'
+    },
+    {
         company: 'Deloitte',
         title: 'Software Engineer and Data Scientist',
         timeline: 'Jan - Apr 2022',

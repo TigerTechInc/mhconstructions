@@ -13,7 +13,7 @@ const Contact = () => (
           <MediaBlock mediaProfiles={MediaContent} />
         </div>
         <p>Developed and Designed by Jayant Mehta</p>
-        <p>Jayant Mehta © 2021</p>
+        <p>Jayant Mehta © 2023</p>
       </div>
     </>
 );
