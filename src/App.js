@@ -21,11 +21,12 @@ class App extends Component {
       <Router>
         <div className="App">
           <NavBar />
-          <div>
+          <HomePage />
+          {/* <div>
             <Switch>
               <Route path="/" component={HomePage} exact/>
             </Switch>
-          </div>
+          </div> */}
         </div>
       </Router>
     );
