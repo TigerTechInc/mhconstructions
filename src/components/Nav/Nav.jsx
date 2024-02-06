@@ -48,7 +48,7 @@ const Navbar = () => {
           smooth={true}
           offset={-70}
           duration={500}>
-      Jayant Mehta
+      MH Concrete
       </Link>
       <div className="options">
         <Burger />

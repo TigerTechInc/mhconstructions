@@ -2,11 +2,12 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
   background-color: white;
+  box-sizing: border-box; /* Include padding and borders in the box model */
 }
 
 .no-link {
-  color:inherit;
-  text-decoration:none;
+  color: inherit;
+  text-decoration: none;
 }
 
 h3, h4 {
@@ -16,25 +17,33 @@ h3, h4 {
 
 h1 {
   margin-bottom: 2%;
+  word-wrap: break-word; /* Add this property to break long words */
 }
 
 #intro {
-  padding-top: 6vh;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
   color: black;
   text-align: center;
-  background-image: linear-gradient(rgba(255,255,255,90%), rgba(255,255,255,0)),url("./neural.jpeg");
+  background-image: url("./landing_background.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto; /* Allow the height to adjust based on content */
 }
 
-#contact {
-  background-color: rgb(41, 124, 160);
-  text-align: center;
-  padding-top: 1vh;
-  padding-bottom: 1vh;
+#page-body {
+  width: 70%;
+  text-align: justify;
+  margin: 0 auto;
+  padding-top: 8vh;
+  padding-bottom: 8vh; /* Adjust padding for better visibility */
+  box-sizing: border-box; /* Include padding and borders in the box model */
 }
 
 #profileIMG {
-  width:18%;
-  height:18%;
+  width: 18%;
+  height: 18%;
   border: 0px solid black;
   border-radius: 100%;
   padding-top: 1vh;
@@ -61,8 +70,13 @@ h1 {
   padding-right: 1ch;
   padding-left: 1ch;
 }
+
 #iconLink:hover {
   transform: scale(1.2);
+  color: white;
+}
+
+#iconLink {
   color: white;
 }
 
@@ -72,29 +86,15 @@ h1 {
   background-color: rgb(29, 139, 190);
 }
 
-#page-body {
-  width: 70%;
-  text-align: justify;
-  margin: 0 auto;
-  padding-top: 8vh;
-}
-
 @media (max-width: 1000px) {
   #page-body {
-    width:80%;
+    width: 80%;
   }
   #profileIMG {
-    width:70%;
-    height:70%;
+    width: 70%;
+    height: 70%;
     border-radius: 100%;
-  
   }
-
-}
-
-.cardIMG {
-  width: 100%;
-  height:20vh;
 }
 
 .row {
@@ -105,12 +105,37 @@ h1 {
 }
 
 .card {
-  width: 24%;
+  width: 25%; /* Adjust as needed for the desired width */
   background: #fff;
   border: 1px solid #ccc;
   margin-bottom: 50px;
   transition: 0.3s;
   background-color: rgb(236, 236, 236);
+}
+
+.cardIMG {
+  width: 100%;
+  height: 200px; /* Adjust the height as needed */
+  object-fit: cover; /* Ensure the image covers the container */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+
+.card h4 {
+  margin-top: 1vh;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px; /* Adjust font size as needed */
+  color: black;
+}
+
+.card h5 {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px; /* Adjust font size as needed */
+  color: black;
+  font-weight: 500;
 }
 
 .card-body {
@@ -141,24 +166,80 @@ h1 {
 }
 
 @media screen and (max-width: 620px) {
-
   .card {
     width: 100%;
   }
 }
 
-.card h4 {
-    margin-top: 1vh;
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    color: black;
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.card h5 {
-  margin-top: 1vh;
-  margin-bottom: 1vh;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  color: black;
-  font-weight: 500;
+.service-card {
+  width: 30%;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.service-image {
+  width: 100%;
+  height: 150px; /* Adjust the height as needed */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.service-name {
+  margin: 10px 0;
+  font-size: 1.2rem; /* Adjust the font size as needed */
+}
+
+@media screen and (max-width: 767px) {
+  .service-card {
+    width: 100%; /* Stack cards vertically on smaller screens */
+  }
+}
+
+#contact {
+  background-color: #2c3e50; /* Darker background color */
+  color: #ecf0f1; /* Light text color */
+  text-align: center;
+  padding-top: 5vh;
+  padding-bottom: 15vh; /* Adjust padding for better visibility */
+  box-sizing: border-box;
+}
+
+#contact h1 {
+  font-size: 36px;
+  margin-bottom: 2vh;
+}
+
+#contact p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 2vh;
+}
+
+#contact a {
+  color: #3498db; /* Link color */
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #contact {
+    padding-bottom: 30vh; /* Adjust as needed for iPad Pro */
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  #contact {
+    padding-bottom: 25vh; /* Adjust as needed for smaller screens (laptops) */
+  }
 }

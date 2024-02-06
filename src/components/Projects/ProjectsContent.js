@@ -1,59 +1,31 @@
 const ProjectsContent = [
     {
-        name: 'SanitizeMe (Winner)',
-        description: 'RU Hacks Winner: Object touch detection tracker to alert users when cleaning is required',
-        skills: 'JavaScript, Tensorflow.js, Node.js, Express.js, GCP',
-        imageName: 'sanitizeme.jpg'
+        imageName: 'landing_mh.jpeg'
     },
     {
-        name: 'Facebook Ads Predictor',
-        description: 'Facebook AI Hackathon: Google Cloud Vision image classifier to post ads to matching Facebook groups',
-        skills: 'Python, PyTorch, Google Vision, React.js, Flask, Docker',
-        imageName: 'fbhack.jpeg'
+        imageName: 'landing_mh.jpeg'
     },
     {
-        name: 'Biometrics Bicycle Lock',
-        description: 'DECA Innovation Provincial Winner: Embedded secuirty system to track and lock bicyles',
-        skills: 'C++, Swift, Arduino, Fingerprint Sensor',
-        imageName: 'deca.png'
+        imageName: 'landing_mh.jpeg'
     },
     {
-        name: 'Air Quality Analyzer',
-        description: 'Compare and compute air qualities for thousands of cities around the world',
-        skills: 'JavaScript, Vue.js, HTML, CSS, APIs',
-        imageName: 'air.jpg'
+        imageName: 'landing_mh.jpeg'
     },
     {
-        name: 'Angular Motion Game',
-        description: 'GUI multi-level game with basic AI for security drones pointing lasers at the player',
-        skills: 'Java, Object Oriented Programming',
-        imageName: 'angular.png'
+        imageName: 'landing_mh.jpeg'
     },
     {
-        name: 'SchoolSync @ ShellHacks',
-        description: 'Support peers virtually (COVID-19), join classrooms, and never miss a deadline',
-        skills: 'React Native, Google Firebase Authentication, Firestore, Expo',
-        imageName: 'schoolsync.png'
+        imageName: 'landing_mh.jpeg'
     },
     {
-        name: 'Jayant Tutorials Community',
-        description: 'A custom learning centre to host my tutorials and workshops',
-        skills: 'Ruby on Rails, React.js, PostgreSQL, Heroku',
-        imageName: 'tutorials.jpg'
+        imageName: 'landing_mh.jpeg'
     },
     {
-        name: 'Technical Blogging & Learning',
-        description: 'Technical writing on project work, development, and experiences',
-        skills: 'Node.js, Express, React.js, MongoDB (MERN stack)',
-        imageName: 'blog.jpg'
+        imageName: 'landing_mh.jpeg'
     },
     {
-        name: 'Sentiment Analysis Tweeter',
-        description: 'An API to analyze text input and return sentiment analysis by polarity',
-        skills: 'Python, Microsoft Azure, Flask, Django',
-        imageName: 'sentiment.jpg'
-    },
-    
+        imageName: 'landing_mh.jpeg'
+    }
 ];
 
 export default ProjectsContent;

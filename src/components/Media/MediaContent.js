@@ -2,20 +2,20 @@ const mediaProfiles = [
     {
         name: 'Email',
         brand: false,
-        myURL: 'mailto: jayant.mehta@uwaterloo.ca',
+        myURL: 'mailto: Mhhayer9190@yahoo.com',
         iconClass: "envelope"
     },
     {
-        name: 'GitHub',
+        name: 'Instagram',
         brand: true,
-        myURL: 'https://github.com/JayantMehta1',
-        iconClass: ['fab', 'github']
+        myURL: 'https://www.instagram.com/mhconstructions91/',
+        iconClass: ['fab', 'instagram']
     },
     {
-        name: 'LinkedIn',
+        name: 'Facebook',
         brand: true,
-        myURL: 'https://www.linkedin.com/in/jayant-mehta',
-        iconClass: ['fab', 'linkedin']
+        myURL: 'https://www.facebook.com/people/MH-constructions/100064652690467/?mibextid=LQQJ4d',
+        iconClass: ['fab', 'facebook']
     },
 ];
 

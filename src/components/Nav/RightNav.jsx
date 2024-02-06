@@ -50,18 +50,18 @@ const RightNav = ({ open }) => {
             smooth={true}
             offset={-70}
             duration={500}>
-        About Me
+        About Us
         </Link>
     </li>
     <li>
         <Link
             activeClass="active"
-            to="experience"
+            to="services"
             spy={true}
             smooth={true}
             offset={-70}
             duration={500}>
-        Experience
+        Services
         </Link>
     </li>
     <li>
@@ -85,9 +85,6 @@ const RightNav = ({ open }) => {
             duration={500}>
         Contact
         </Link>
-    </li>
-    <li>
-        <a href={process.env.PUBLIC_URL + '/JayantMehtaResume.pdf'}  target="_blank">Resume</a>
     </li>
     </Ul>
   )
