@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/mhconstructions/static/css/main.a02d5380.chunk.css",
-    "main.js": "/mhconstructions/static/js/main.3f397e77.chunk.js",
-    "main.js.map": "/mhconstructions/static/js/main.3f397e77.chunk.js.map",
-    "runtime-main.js": "/mhconstructions/static/js/runtime-main.0c6a2310.js",
-    "runtime-main.js.map": "/mhconstructions/static/js/runtime-main.0c6a2310.js.map",
-    "static/js/2.3d479726.chunk.js": "/mhconstructions/static/js/2.3d479726.chunk.js",
-    "static/js/2.3d479726.chunk.js.map": "/mhconstructions/static/js/2.3d479726.chunk.js.map",
-    "index.html": "/mhconstructions/index.html",
-    "precache-manifest.f54f1a8e40736f80c9f04a1e0e731be0.js": "/mhconstructions/precache-manifest.f54f1a8e40736f80c9f04a1e0e731be0.js",
-    "service-worker.js": "/mhconstructions/service-worker.js",
-    "static/css/main.a02d5380.chunk.css.map": "/mhconstructions/static/css/main.a02d5380.chunk.css.map",
-    "static/js/2.3d479726.chunk.js.LICENSE.txt": "/mhconstructions/static/js/2.3d479726.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/mhconstructions/static/media/landing_background.fa70e22f.avif"
+    "main.css": "./static/css/main.bb5878f9.chunk.css",
+    "main.js": "./static/js/main.78039ffb.chunk.js",
+    "main.js.map": "./static/js/main.78039ffb.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.735c5ec0.js",
+    "runtime-main.js.map": "./static/js/runtime-main.735c5ec0.js.map",
+    "static/js/2.2755e10a.chunk.js": "./static/js/2.2755e10a.chunk.js",
+    "static/js/2.2755e10a.chunk.js.map": "./static/js/2.2755e10a.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.1d319b5f3972cf4b8cf1894d5e8578fa.js": "./precache-manifest.1d319b5f3972cf4b8cf1894d5e8578fa.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.bb5878f9.chunk.css.map": "./static/css/main.bb5878f9.chunk.css.map",
+    "static/js/2.2755e10a.chunk.js.LICENSE.txt": "./static/js/2.2755e10a.chunk.js.LICENSE.txt",
+    "static/media/App.css": "./static/media/landing_background.fa70e22f.avif"
   },
   "entrypoints": [
-    "static/js/runtime-main.0c6a2310.js",
-    "static/js/2.3d479726.chunk.js",
-    "static/css/main.a02d5380.chunk.css",
-    "static/js/main.3f397e77.chunk.js"
+    "static/js/runtime-main.735c5ec0.js",
+    "static/js/2.2755e10a.chunk.js",
+    "static/css/main.bb5878f9.chunk.css",
+    "static/js/main.78039ffb.chunk.js"
   ]
 }
