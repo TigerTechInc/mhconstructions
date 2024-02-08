@@ -6,7 +6,7 @@ const Intro = () => (
     <>
       <div id="intro">
         <h1 id="name">MH Concrete & Renovations Inc.</h1>
-        <img id='profileIMG' src={process.env.PUBLIC_URL + '/profile.jpeg'} alt="ProfilePic"></img>
+        <img id='profileIMG' src={process.env.PUBLIC_URL + '/profile.png'} alt="ProfilePic"></img>
         {/* <div class="mediaSpacingIntro">
           <MediaBlock mediaProfiles={MediaContent} />
         </div> */}

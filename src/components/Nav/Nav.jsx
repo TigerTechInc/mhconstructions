@@ -48,7 +48,7 @@ const Navbar = () => {
           smooth={true}
           offset={-70}
           duration={500}>
-      MH Concrete
+      MH Constructions
       </Link>
       <div className="options">
         <Burger />

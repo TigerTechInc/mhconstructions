@@ -3,28 +3,76 @@ const ProjectsContent = [
         imageName: 'landing_mh.jpeg'
     },
     {
-        imageName: 'landing_mh.jpeg'
+        imageName: 'im1.jpg'
     },
     {
-        imageName: 'landing_mh.jpeg'
+        imageName: 'im2.jpg'
     },
     {
-        imageName: 'landing_mh.jpeg'
+        imageName: 'im3.jpg'
     },
     {
-        imageName: 'landing_mh.jpeg'
+        imageName: 'im4.jpg'
     },
     {
-        imageName: 'landing_mh.jpeg'
+        imageName: 'im5.jpg'
     },
     {
-        imageName: 'landing_mh.jpeg'
+        imageName: 'im6.jpg'
     },
     {
-        imageName: 'landing_mh.jpeg'
+        imageName: 'im7.jpg'
     },
     {
-        imageName: 'landing_mh.jpeg'
+        imageName: 'im8.jpg'
+    },
+    {
+        imageName: 'im9.jpg'
+    },
+    {
+        imageName: 'im10.jpg'
+    },
+    {
+        imageName: 'im11.jpg'
+    },
+    {
+        imageName: 'im12.jpg'
+    },
+    {
+        imageName: 'im13.jpg'
+    },
+    {
+        imageName: 'im14.jpg'
+    },
+    {
+        imageName: 'im15.jpg'
+    },
+    {
+        imageName: 'im16.jpg'
+    },
+    {
+        imageName: 'im17.jpg'
+    },
+    {
+        imageName: 'im18.jpg'
+    },
+    {
+        imageName: 'im19.jpg'
+    },
+    {
+        imageName: 'im20.png'
+    },
+    {
+        imageName: 'im21.jpg'
+    },
+    {
+        imageName: 'im22.jpg'
+    },
+    {
+        imageName: 'im23.jpg'
+    },
+    {
+        imageName: 'im24.jpg'
     }
 ];
 

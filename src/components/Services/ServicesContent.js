@@ -1,7 +1,7 @@
 const ServicesContent = [
     {
         imageName: 'bestqualitywork.jpg',
-        serviceName: 'CONCRETE CONTRACTOR'
+        serviceName: 'Concrete Work'
     },
     {
         imageName: 'concretedriveway.webp',
